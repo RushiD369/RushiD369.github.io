@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rushikesh Deore | DevOps Engineer</title>
+<meta name="description" content="Rushikesh Deore, DevOps Engineer in Pune. AWS, Jenkins, Docker, Kubernetes (EKS), Terraform, Prometheus and Grafana.">
+<meta name="theme-color" content="#0f2a20">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rushikesh Deore | DevOps Engineer">
+<meta property="og:description" content="CI/CD pipelines, AWS infrastructure and Kubernetes. Projects, experience and skills.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%99%EF%B8%8F%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#ffffff;--bg2:#f0f4f2;--card:#ffffff;--ink:#14201b;--muted:#4d5e56;--line:#d7e0db;--acc:#1b5e43;--acc-ink:#ffffff;--good:#1b7a4f;--side:#0f2a20;
+--d:"Sora","Trebuchet MS",system-ui,sans-serif;--t:"DM Sans","Segoe UI",system-ui,sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1512;--bg2:#121d19;--card:#16231e;--ink:#e7efeb;--muted:#9bb0a6;--line:#27382f;--acc:#5cc99a;--acc-ink:#06150e;--good:#5cc99a;--side:#0a1a14}}
+:root[data-theme="dark"]{--bg:#0d1512;--bg2:#121d19;--card:#16231e;--ink:#e7efeb;--muted:#9bb0a6;--line:#27382f;--acc:#5cc99a;--acc-ink:#06150e;--good:#5cc99a;--side:#0a1a14}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:1rem}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1rem/1.7 var(--t);-webkit-font-smoothing:antialiased}
+a{color:var(--acc)}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+.w{max-width:54rem;margin:0 auto;padding:0 1.25rem}
+.tg{background:none;border:1px solid var(--line);color:var(--muted);border-radius:2rem;padding:.2rem .75rem;font:500 .82rem var(--t);cursor:pointer}
+.tg:hover{color:var(--acc);border-color:var(--acc)}
+.shell{display:grid;grid-template-columns:16.5rem minmax(0,1fr)}
+.side{position:sticky;top:env(safe-area-inset-top,0px);height:calc(100vh - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px));height:calc(100dvh - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px));overflow:auto;background:var(--side);color:#e7efeb;padding:2rem 1.3rem;display:flex;flex-direction:column;gap:1.6rem}
+.side .brand{font:700 1.35rem/1.2 var(--d);color:#fff;text-decoration:none;display:block}
+.side .rl{margin:.4rem 0 0;color:#a9c2b6;font-size:.9rem;line-height:1.5}
+.side ul{list-style:none;margin:0;padding:0;display:grid;gap:.15rem}
+.side nav a{display:block;padding:.45rem .7rem;border-radius:.4rem;color:#cfe0d7;text-decoration:none;font-weight:500;font-size:.95rem}
+.side nav a:hover{background:rgba(255,255,255,.09);color:#fff}
+.side .sl{margin-top:auto;display:grid;gap:.45rem;font-size:.88rem}
+.side .sl a{color:#9fe3c2;text-decoration:none;overflow-wrap:anywhere}
+.side .sl a:hover{text-decoration:underline}
+.side .tg{color:#cfe0d7;border-color:rgba(255,255,255,.28);justify-self:start;margin-top:.4rem}
+.side .tg:hover{color:#fff;border-color:#fff}
+.side a:focus-visible,.side button:focus-visible{outline-color:#9fe3c2}
+@media (max-width:900px){.shell{display:block}.side{position:static;height:auto;padding:1.2rem 1.25rem;gap:1rem}.side nav ul{display:flex;flex-wrap:wrap;gap:.2rem}.side .sl{margin-top:0;display:flex;flex-wrap:wrap;align-items:center;gap:.4rem 1rem}.side .tg{margin-top:0}.hero{padding-top:2.5rem}}
+.hero{padding:4rem 0 3rem;background:var(--bg2);border-bottom:1px solid var(--line)}
+.hg{display:block}
+.snap{background:var(--card);border:1px solid var(--line);border-radius:.55rem;padding:1.3rem 1.4rem}
+.snap h3{font:700 .95rem var(--d);margin:0 0 .9rem;color:var(--muted)}
+.snap dl{margin:0;display:grid;gap:.8rem}
+.snap dt{font-size:.8rem;color:var(--muted);font-weight:500}
+.snap dd{margin:0;font-weight:600}
+.badge{display:inline-flex;align-items:center;gap:.5rem;border:1px solid var(--line);background:var(--card);border-radius:2rem;padding:.3rem .9rem;font-size:.88rem;font-weight:500;color:var(--muted)}
+.badge::before{content:"";width:.55rem;height:.55rem;border-radius:50%;background:var(--good)}
+h1{font:700 clamp(2.4rem,6.5vw,4rem)/1.05 var(--d);letter-spacing:-.03em;margin:1.1rem 0 .7rem}
+.sub{font:600 clamp(1.05rem,2.5vw,1.4rem) var(--d);color:var(--acc);margin:0 0 1rem}
+.lead{max-width:38rem;color:var(--muted);font-size:1.08rem;margin:0 0 1.7rem}
+.row{display:flex;gap:.7rem;flex-wrap:wrap}
+.btn{display:inline-block;padding:.7rem 1.3rem;border-radius:.4rem;font-weight:600;text-decoration:none;border:2px solid var(--acc);cursor:pointer;font-family:var(--t);font-size:1rem}
+.btn.p{background:var(--acc);color:var(--acc-ink)}
+.btn.s{background:transparent;color:var(--acc)}
+.btn:hover{filter:brightness(1.1)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:.55rem;overflow:hidden;margin-top:2.5rem}
+.stat{background:var(--card);padding:1.1rem 1.2rem}
+.stat b{display:block;font:700 clamp(1.7rem,4vw,2.4rem)/1.1 var(--d);color:var(--acc)}
+.stat span{color:var(--muted);font-size:.9rem}
+@media (max-width:760px){.stats{grid-template-columns:repeat(2,1fr)}}
+section{padding:4rem 0 1rem}
+.kick{color:var(--acc);font-weight:600;font-size:.95rem;margin:0 0 .3rem}
+h2{font:700 clamp(1.7rem,4vw,2.3rem)/1.15 var(--d);letter-spacing:-.02em;margin:0 0 1.4rem}
+.two{display:grid;grid-template-columns:1.1fr 1fr;gap:2rem;align-items:start}
+@media (max-width:820px){.two{grid-template-columns:1fr}}
+.two p{margin:0 0 1rem;color:var(--muted)}
+.two p b{color:var(--ink)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));gap:1rem}
+.two .cards{grid-template-columns:1fr 1fr}
+@media (max-width:520px){.two .cards{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:.55rem;padding:1.25rem}
+.card .ic{font-size:1.5rem;line-height:1;display:block;margin-bottom:.5rem}
+.card h3{font:700 1.05rem/1.25 var(--d);margin:0 0 .45rem}
+.card p{margin:0 0 .8rem;color:var(--muted);font-size:.95rem}
+.card p:last-child{margin-bottom:0}
+.chips{display:flex;flex-wrap:wrap;gap:.45rem;list-style:none;margin:0;padding:0}
+.chips li{font-size:.85rem;font-weight:500;padding:.2rem .7rem;border-radius:2rem;background:var(--bg2);border:1px solid var(--line)}
+.repo{margin-top:1rem;padding:.4rem .9rem;font-size:.9rem}
+.xp{background:var(--card);border:1px solid var(--line);border-radius:.55rem;padding:1.4rem;margin-bottom:1rem}
+.xp-h{display:flex;justify-content:space-between;gap:.5rem 1rem;flex-wrap:wrap;margin-bottom:.8rem}
+.xp h3{font:700 1.2rem var(--d);margin:0}
+.xp .co{color:var(--acc);font-weight:600;margin:.1rem 0 0}
+.when{color:var(--muted);font-size:.9rem;font-weight:500;white-space:nowrap}
+.xp ul{margin:0;padding-left:1.15rem;color:var(--muted)}
+.xp li{margin-bottom:.35rem}
+.ach{display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:1rem;margin-top:1rem}
+.ach .card b{font:800 1.4rem var(--d);color:var(--acc);display:block;margin-bottom:.3rem}
+.tl{list-style:none;margin:0;padding:0 0 0 1.2rem;border-left:2px solid var(--line)}
+.tl li{position:relative;padding:0 0 1.2rem 1rem}
+.tl li::before{content:"";position:absolute;left:-1.72rem;top:.45rem;width:.7rem;height:.7rem;border-radius:50%;background:var(--acc)}
+.tl .when{display:block;margin-bottom:.1rem}
+.tl h3{font:700 1.1rem var(--d);margin:0}
+.tl p{margin:0;color:var(--muted)}
+.ct{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+@media (max-width:820px){.ct{grid-template-columns:1fr}}
+.links{display:grid;gap:.7rem;margin-top:1.2rem}
+.links a{display:block;padding:.8rem 1rem;border:1px solid var(--line);background:var(--card);border-radius:.5rem;text-decoration:none;color:var(--ink);font-weight:500}
+.links a:hover{border-color:var(--acc);color:var(--acc)}
+form{display:grid;gap:.8rem}
+label{font-weight:600;font-size:.9rem}
+input,textarea{width:100%;margin-top:.3rem;padding:.7rem .8rem;border-radius:.6rem;border:1px solid var(--line);background:var(--card);color:var(--ink);font:inherit}
+textarea{min-height:7rem;resize:vertical}
+.hint{font-size:.82rem;color:var(--muted);margin:0}
+footer{margin-top:3rem;border-top:1px solid var(--line);padding:1.4rem 0 1.8rem;color:var(--muted);font-size:.9rem;text-align:center}
+footer p{margin:0}
+@media print{.shell{display:block}.side,.row,.tg,.repo,form{display:none!important}:root{--bg:#fff;--card:#fff;--bg2:#f2f2f2;--ink:#000;--muted:#333;--line:#bbb;--acc:#1b5e43}.hero{background:none}.card,.xp,.stat{break-inside:avoid}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="side">
+<div><a class="brand" href="#hero">Rushikesh Deore</a><p class="rl">DevOps Engineer<br>Pune, Maharashtra</p></div>
+<nav aria-label="Sections"><ul>
+<li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li><li><a href="#experience">Experience</a></li><li><a href="#education">Education</a></li><li><a href="#contact">Contact</a></li>
+</ul></nav>
+<div class="sl">
+<a href="mailto:deorerushi7852@gmail.com">Email</a>
+<a href="https://linkedin.com/in/rush-deore/" target="_blank" rel="noopener">LinkedIn</a>
+<a href="https://github.com/RushiD369" target="_blank" rel="noopener">GitHub</a>
+<button class="tg" id="tg" type="button" aria-label="Switch colour theme">Theme</button>
+</div>
+</aside>
+<div class="content">
+
+<main>
+<div class="hero" id="hero"><div class="w">
+<div class="hg"><div>
+<span class="badge">Open to opportunities</span>
+<h1>Rushikesh Deore</h1>
+<p class="sub">DevOps Engineer &middot; Cloud Engineer</p>
+<p class="lead">3 years building CI/CD pipelines and running AWS infrastructure in Pune. Jenkins, Docker, Kubernetes on Amazon EKS, Terraform, and Prometheus/Grafana monitoring.</p>
+<div class="row"><a class="btn p" href="#contact">Get in touch</a><a class="btn s" href="#projects">View projects</a></div>
+</div>
+</div>
+<div class="stats">
+<div class="stat"><b>3+</b><span>Years of experience</span></div>
+<div class="stat"><b>40%</b><span>Less manual deployment time</span></div>
+<div class="stat"><b>3</b><span>DevOps projects on AWS</span></div>
+<div class="stat"><b>9</b><span>Stages in my EKS pipeline</span></div>
+</div></div>
+
+<section id="about"><div class="w">
+<p class="kick">About</p><h2>Who I am</h2>
+<div class="two">
+<div>
+<p>DevOps Engineer with <b>3 years of experience</b> designing CI/CD pipelines and managing AWS infrastructure. At Assetcues I reduced manual deployment time by <b>40%</b> through a Jenkins pipeline design that also made the infrastructure easier to scale.</p>
+<p>My recent work covers <b>Docker, Kubernetes (Amazon EKS), Jenkins, Terraform and Prometheus/Grafana</b>, built through hands-on projects during my DevOps internship at StarAgile.</p>
+<p>I'm looking for a team where I can keep improving operational efficiency, scalability and monitoring.</p>
+</div>
+<div class="cards">
+<div class="card"><span class="ic">&#9729;&#65039;</span><h3>AWS Cloud</h3><p>EC2, S3, IAM, RDS, VPC, Lambda, Route53, CloudFormation</p></div>
+<div class="card"><span class="ic">&#128257;</span><h3>CI/CD Automation</h3><p>Jenkins pipelines, GitHub webhooks, Ansible</p></div>
+<div class="card"><span class="ic">&#128051;</span><h3>Containers</h3><p>Docker, Kubernetes, Amazon ECR and EKS</p></div>
+<div class="card"><span class="ic">&#128200;</span><h3>Monitoring and IaC</h3><p>Grafana, Prometheus, Terraform</p></div>
+</div></div></div></section>
+
+<section id="skills"><div class="w">
+<p class="kick">Skills</p><h2>Technical competencies</h2>
+<div class="cards">
+<div class="card"><h3>Cloud</h3><ul class="chips"><li>AWS</li><li>Azure</li><li>EC2</li><li>S3</li><li>IAM</li><li>VPC</li><li>RDS</li><li>ECR</li><li>EKS</li><li>Lambda</li><li>Route53</li><li>CloudFormation</li></ul></div>
+<div class="card"><h3>CI/CD</h3><ul class="chips"><li>Jenkins</li><li>GitHub Webhooks</li></ul></div>
+<div class="card"><h3>Containers and orchestration</h3><ul class="chips"><li>Docker</li><li>Kubernetes</li></ul></div>
+<div class="card"><h3>IaC and configuration</h3><ul class="chips"><li>Terraform</li><li>Ansible</li></ul></div>
+<div class="card"><h3>Monitoring</h3><ul class="chips"><li>Grafana</li><li>Prometheus</li></ul></div>
+<div class="card"><h3>Scripting and databases</h3><ul class="chips"><li>Python</li><li>Shell</li><li>MySQL</li></ul></div>
+</div></div></section>
+
+<section id="projects"><div class="w">
+<p class="kick">Projects</p><h2>What I've built</h2>
+<div class="cards">
+<article class="card"><h3>Secure 3-tier AWS application</h3>
+<p>A static frontend on S3, a Flask and Nginx app on EC2, and a private MySQL RDS instance. A custom VPC, subnets, Security Groups and IAM roles keep each tier strictly isolated.</p>
+<ul class="chips"><li>AWS</li><li>S3</li><li>EC2</li><li>RDS MySQL</li><li>VPC</li><li>IAM</li><li>Nginx</li></ul>
+<a class="btn s repo" href="https://github.com/RushiD369/aws-3-tier-web-application" target="_blank" rel="noopener">View code on GitHub</a></article>
+<article class="card"><h3>BookMyShow CI/CD on Kubernetes</h3>
+<p>An end-to-end pipeline for a containerized BookMyShow application. GitHub webhooks start the build, and Prometheus and Grafana monitor both the application and the cluster.</p>
+<ul class="chips"><li>Jenkins</li><li>Docker</li><li>AWS ECR</li><li>Amazon EKS</li><li>Kubernetes</li><li>Ansible</li><li>Prometheus</li><li>Grafana</li></ul>
+<a class="btn s repo" href="https://github.com/RushiD369/bookmyshow-devops" target="_blank" rel="noopener">View code on GitHub</a></article>
+<article class="card"><h3>AWS DevOps and Kubernetes deployment pipeline</h3>
+<p>A 9-stage Jenkins pipeline that delivers a React app to Amazon EKS, with separate Staging and Production environments, zero-downtime rollbacks and Prometheus/Grafana monitoring.</p>
+<ul class="chips"><li>Jenkins</li><li>React</li><li>Amazon EKS</li><li>Kubernetes</li><li>Prometheus</li><li>Grafana</li></ul>
+<a class="btn s repo" href="https://github.com/RushiD369/zomato-devops-aws" target="_blank" rel="noopener">View code on GitHub</a></article>
+</div></div></section>
+
+<section id="experience"><div class="w">
+<p class="kick">Experience</p><h2>Work history</h2>
+
+<div class="xp"><div class="xp-h"><div><h3>DevOps Intern</h3><p class="co">StarAgile (Remote)</p></div><span class="when">Feb 2026 to Aug 2026</span></div>
+<ul><li>Completed 3 hands-on DevOps projects covering AWS architecture, CI/CD automation, Kubernetes deployment and monitoring.</li></ul></div>
+
+<div class="xp"><div class="xp-h"><div><h3>DevOps Engineer</h3><p class="co">Assetcues, Pune</p></div><span class="when">Nov 2022 to Nov 2025</span></div>
+<ul>
+<li>Designed and implemented Jenkins CI/CD pipelines, reducing manual deployment time by 40%.</li>
+<li>Managed AWS infrastructure (EC2, S3, IAM, RDS, CloudFormation) for scalable, cost-effective environments.</li>
+<li>Configured VPCs, Security Groups, Route53, IAM policies, Lambda and S3.</li>
+<li>Built Grafana dashboards for real-time visibility and proactive alerting, improving incident response times.</li>
+<li>Wrote Terraform templates for repeatable environment provisioning, reducing onboarding time for new application projects.</li>
+<li>Ran MySQL operations (INSERT, UPDATE, DELETE) while keeping data consistent.</li></ul>
+<div class="ach">
+<div class="card"><b>01</b><h3>Faster releases</h3><p>Jenkins pipelines cut manual deployment time by 40%.</p></div>
+<div class="card"><b>02</b><h3>Repeatable environments</h3><p>Terraform templates sped up onboarding for new projects.</p></div>
+<div class="card"><b>03</b><h3>Faster incident response</h3><p>Grafana dashboards and alerts gave real-time visibility.</p></div>
+</div></div>
+
+<div class="xp"><div class="xp-h"><div><h3>Research Analyst</h3><p class="co">Machbizz Marketers Pvt. Ltd, Pune</p></div><span class="when">Jan 2021 to Nov 2021</span></div>
+<ul><li>Ran market research and lead generation for US-based clients using CRM platforms.</li>
+<li>Built and verified large contact databases and analyzed data to support campaign strategy.</li>
+<li>Designed B2B lead generation funnels with LinkedIn Sales Navigator, ZoomInfo and Apollo.io.</li></ul></div>
+
+<div class="xp"><div class="xp-h"><div><h3>Software Developer Intern</h3><p class="co">43 AppMart Integral IT Services, Pune</p></div><span class="when">Jan 2020 to Apr 2020</span></div>
+<ul><li>Assisted with PHP deployments and server configuration for client websites.</li>
+<li>Wrote user manuals and technical documentation, plus Shell scripts for automated backups.</li></ul></div>
+</div></section>
+
+<section id="education"><div class="w">
+<p class="kick">Education</p><h2>Academic background</h2>
+<ul class="tl"><li><span class="when">2018 to 2020</span><h3>Master of Computer Science</h3><p>Fergusson College, Pune &middot; 6.65</p></li></ul>
+</div></section>
+
+<section id="contact"><div class="w">
+<p class="kick">Contact</p><h2>Let's connect</h2>
+<div class="ct">
+<div>
+<p style="margin:0;color:var(--muted)">Open to DevOps, Cloud and SRE roles. Email is the quickest way to reach me.</p>
+<div class="links">
+<a href="mailto:deorerushi7852@gmail.com">Email: deorerushi7852@gmail.com</a>
+<a href="tel:+917350807185">Phone: +91 73508 07185</a>
+<a href="https://linkedin.com/in/rush-deore/" target="_blank" rel="noopener">LinkedIn: linkedin.com/in/rush-deore</a>
+<a href="https://github.com/RushiD369" target="_blank" rel="noopener">GitHub: github.com/RushiD369</a>
+</div></div>
+<form id="f">
+<label>Name<input id="n" required autocomplete="name"></label>
+<label>Email<input id="e" type="email" required autocomplete="email"></label>
+<label>Message<textarea id="m" required></textarea></label>
+<button class="btn p" type="submit">Send message</button>
+<p class="hint">This opens your email app with the message ready to send.</p>
+</form>
+</div></div></section>
+</main>
+
+<footer><div class="w"><p>&copy; 2026 Rushikesh Deore &middot; DevOps Engineer, Pune</p></div></footer>
+</div></div>
+
+<script>
+(function(){
+  var root=document.documentElement;
+  function dark(){var t=root.getAttribute('data-theme');return t?t==='dark':matchMedia('(prefers-color-scheme: dark)').matches}
+  document.getElementById('tg').addEventListener('click',function(){root.setAttribute('data-theme',dark()?'light':'dark')});
+  document.getElementById('f').addEventListener('submit',function(ev){
+    ev.preventDefault();
+    var n=document.getElementById('n').value,e=document.getElementById('e').value,m=document.getElementById('m').value;
+    location.href='mailto:deorerushi7852@gmail.com?subject='+encodeURIComponent('Portfolio message from '+n)+'&body='+encodeURIComponent(m+'\n\nFrom: '+n+' ('+e+')');
+  });
+})();
+</script>
+</body>
+</html>
